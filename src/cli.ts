@@ -105,7 +105,7 @@ function parseArgs(argv: string[]): CliArgs {
         args.transparent = true
         break
 
-      case '--ascii-only':
+      case '--ascii':
         args.asciiOnly = true
         break
 
@@ -155,7 +155,7 @@ Output Options:
   -o, --output <file>     Write output to file instead of stdout
 
 ASCII Options:
-  --ascii-only            Use pure ASCII characters (+,-,|) instead of Unicode
+  --ascii                 Use pure ASCII characters (+,-,|) instead of Unicode
   --padding-x <n>         Horizontal spacing between nodes (default: 5)
   --padding-y <n>         Vertical spacing between nodes (default: 5)
 
